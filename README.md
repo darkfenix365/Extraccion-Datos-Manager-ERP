@@ -15,3 +15,7 @@ Los ditintos Scripts tienen la caracteristicas de Estructurarse como ETL de desc
 - numpy
 - psycop2
 - sqlalchemy
+
+## Informes de MANAGER
+- Informe de Tesoreria
+- Informe de Libro de Venta
