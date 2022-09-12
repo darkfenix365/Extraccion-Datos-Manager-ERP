@@ -2,7 +2,7 @@
 # Manager-Automatizacion 
 
 ## Objetivo 
-El presente repositorio tiene como finalidad el uso de Scripts de python para la descarga de distintos informes del ERP MANAGER.
+El presente repositorio tiene como finalidad el uso de Scripts de python para la descarga de distintos informes del ERP MANAGER y consumo de API de MANAGER.
 
 ### Explicación Scripts
 Los ditintos Scripts tienen la caracteristicas de Estructurarse como ETL de descarga de informes en formato xlsx, para luego transformar a traves de pandas y luego su carga en una base de datos.
