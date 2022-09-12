@@ -2,6 +2,7 @@
 
 import requests as rq
 import json
+import ast
 from params import DB_MANAGER, DB_MANAGER_PASS
 
 # Url de api
@@ -16,4 +17,6 @@ headers = {
 }
 respuesta_token = rq.request("POST", url, headers=headers, data=payload)
 
-print(respuesta_token.text)
+token_manager = ast.literal_eval(respuesta_token.text)
+token_auth = token_manager['auth_token']
+print(token_auth)
