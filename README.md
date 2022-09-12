@@ -22,6 +22,7 @@ Los ditintos Scripts tienen la caracteristicas de Estructurarse como ETL de desc
 
 ## Codigo de Api manager
 - **Api Autentificador**: Consumir api para obtener token de autentificacion.
+- **Api Descargar Clientes** : Consumir api para descargar datos de clientes de empresa.
 
 ## Puntos a Mejorar
 - [ ] Consumir Api de Manager
