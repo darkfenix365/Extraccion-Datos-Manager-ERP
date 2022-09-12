@@ -26,3 +26,6 @@ Los ditintos Scripts tienen la caracteristicas de Estructurarse como ETL de desc
 ## Puntos a Mejorar
 - [ ] Consumir Api de Manager
 - [ ] Generacion de funciones para selenium
+
+## Documentacion
+La documentación de la api de Manager la pueden encontrar en el siguiente vinculo [Manager Documentacion](https://api.managermas.cl/).
