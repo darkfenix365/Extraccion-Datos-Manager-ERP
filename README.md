@@ -19,3 +19,7 @@ Los ditintos Scripts tienen la caracteristicas de Estructurarse como ETL de desc
 ## Informes de MANAGER
 - Informe de Tesoreria
 - Informe de Libro de Venta
+
+## Puntos a Mejorar
+- [ ] Consumir Api de Manager
+- [ ] Generacion de funciones para selenium
