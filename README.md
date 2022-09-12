@@ -1,5 +1,5 @@
 ![This is an image](https://manager.cl/wp-content/uploads/2022/02/logo-manager-mas.png)
-# Manager-Automatizacion 
+# Manager-Extracción de Datos (ETL)
 
 ## Objetivo 
 El presente repositorio tiene como finalidad el uso de Scripts de python para la descarga de distintos informes del ERP MANAGER y consumo de API de MANAGER.
