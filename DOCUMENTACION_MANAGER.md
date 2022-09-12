@@ -17,11 +17,11 @@ Los ditintos Scripts tienen la caracteristicas de Estructurarse como ETL de desc
 - sqlalchemy
 
 ## Informes de MANAGER
-- Informe de Tesoreria
-- Informe de Libro de Venta
+- Informe de Tesoreria: Informe Manager de Cuentas Por Cobrar pendientes.
+- Informe de Libro de Venta: Informe Manager de libro de documentos emitido por compañia.
 
 ## Codigo de Api manager
-- Api Autentificador
+- Api Autentificador: Consumir api para obtener token de autentificacion.
 
 ## Puntos a Mejorar
 - [ ] Consumir Api de Manager
