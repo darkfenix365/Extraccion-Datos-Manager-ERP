@@ -12,8 +12,9 @@ token_manager = manager_auth(DB_MANAGER, DB_MANAGER_PASS)
 url = f"https://lemontech.managermas.cl/api/clients/{DB_MANAGER_RUT}/?contacts=1&direcciones=1"
 payload={}
 headers = {
-  'Authorization': f'Token {token_manager}'
+  'Authorization': f'Token {token_manager}',
+  'Content-Type': 'application/json'
 }
 response = rq.request("GET", url, headers=headers, data=payload)
-
-print(response.text)
+respuesta = json.loads(response.text)
+response_item = ast.literal_eval(json.dumps(respuesta, ensure_ascii=False).encode('utf8'))

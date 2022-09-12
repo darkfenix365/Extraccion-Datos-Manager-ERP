@@ -4,6 +4,7 @@ import requests as rq
 import json
 import ast
 from params import DB_MANAGER, DB_MANAGER_PASS
+import pandas as pd
 
 def manager_auth(manager_user, manager_pass):
     url = "https://lemontech.managermas.cl/api/auth/"
@@ -26,8 +27,10 @@ def clientes_manager(token_manager_auth, rut_empresa):
 
   payload={}
   headers = {
-    'Authorization': f'Token {token_manager_auth}'
+    'Authorization': f'Token {token_manager_auth}',
+    'Content-Type': 'application/json'
   }
   response = rq.request("GET", url, headers=headers, data=payload)
-
-  print(response.text)
+  respuesta = json.loads(response.text)
+  respuesta_cliente_item = ast.literal_eval(json.dumps(respuesta, ensure_ascii=False).encode('utf8'))
+  return respuesta_cliente_item
